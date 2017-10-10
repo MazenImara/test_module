@@ -58,10 +58,10 @@ class testController extends ControllerBase {
 			} else {
 				$node['weeks']      = $node['daycount'].':';
 				$node['totalcount'] = $node['daycount'];
+				$node['daycount']   = 0;
 				self::save($node);
 			}
 		}
-
 		return $days;
 	}
 

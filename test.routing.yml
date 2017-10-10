@@ -1,0 +1,7 @@
+test.main:
+  path: '/mazen'
+  defaults:
+    _controller: '\Drupal\test\Controller\testController::main'
+    _title: 'Test'
+  requirements:
+    _permission: 'access content'

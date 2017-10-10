@@ -1,0 +1,5 @@
+name: test
+description: test for me
+type: module
+core: 8.x
+package: mazen
